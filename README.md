@@ -1,2 +1,3 @@
-# qaguide.github.io
-Find resources that help you learn Software testing &amp; QA
+# Qaguide.github.io
+All Resources that help you learn Software testing &amp; Better QA
+> #### Guys - Please consider Submit resouces related.
