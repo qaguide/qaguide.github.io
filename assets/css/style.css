@@ -65,7 +65,7 @@ a:hover {
 /*! normalize.css v3.0.0 | Typography | MIT License | git.io/normalize */
 /* line 9, ../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-normalize-1.5/stylesheets/normalize/_typography.scss */
 abbr[title] {
-  border-bottom: 0.0625rem dotted;
+  border-bottom: 1px dotted;
 }
 
 /* line 15, ../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-normalize-1.5/stylesheets/normalize/_typography.scss */
@@ -129,7 +129,7 @@ svg:not(:root) {
 /*! normalize.css v3.0.0 | Figures | MIT License | git.io/normalize */
 /* line 9, ../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-normalize-1.5/stylesheets/normalize/_groups.scss */
 figure {
-  margin: 1em 2.5rem;
+  margin: 1em 40px;
 }
 
 /* line 15, ../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-normalize-1.5/stylesheets/normalize/_groups.scss */
@@ -229,8 +229,8 @@ input[type="search"]::-webkit-search-decoration {
 
 /* line 120, ../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-normalize-1.5/stylesheets/normalize/_forms.scss */
 fieldset {
-  border: 0.0625rem solid #c0c0c0;
-  margin: 0 0.125rem;
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
   padding: 0.35em 0.625em 0.75em;
 }
 
@@ -271,20 +271,19 @@ th {
 /* line 5, ../../../theme/scss/base/_background-image.scss */
 .bg {
   background-repeat: no-repeat;
-  background-image: url('/assets/img/header-bg-1.svg?1489314405');
   background-color: #fff;
 }
 @media (min-width: 58.75em) {
   /* line 5, ../../../theme/scss/base/_background-image.scss */
   .bg {
     background-position: 100% 0;
-    background-size: auto 25rem;
+    background-size: auto 185px;
   }
 }
 @media (min-width: 100em) {
   /* line 5, ../../../theme/scss/base/_background-image.scss */
   .bg {
-    background-size: auto 31.25rem;
+    background-size: auto 185px;
   }
 }
 
@@ -302,68 +301,68 @@ html {
 
 /* line 40, ../../../theme/scss/base/_typography.scss */
 .giga {
-  font-size: 5.625rem;
+  font-size: 90px;
 }
 
 /* line 40, ../../../theme/scss/base/_typography.scss */
 .mega {
-  font-size: 4.5rem;
+  font-size: 72px;
 }
 
 /* line 40, ../../../theme/scss/base/_typography.scss */
 .kilo {
-  font-size: 3.75rem;
+  font-size: 60px;
 }
 
 /* line 40, ../../../theme/scss/base/_typography.scss */
 h1,
 .alpha {
-  font-size: 2.875rem;
+  font-size: 46px;
 }
 
 /* line 40, ../../../theme/scss/base/_typography.scss */
 .beta {
-  font-size: 2.25rem;
+  font-size: 36px;
 }
 
 /* line 40, ../../../theme/scss/base/_typography.scss */
 h2,
 .gamma {
-  font-size: 1.5rem;
+  font-size: 24px;
 }
 
 /* line 40, ../../../theme/scss/base/_typography.scss */
 h3,
 .delta {
-  font-size: 1.3125rem;
+  font-size: 21px;
 }
 
 /* line 40, ../../../theme/scss/base/_typography.scss */
 h4, h5, h6,
 .epsilon {
-  font-size: 1.125rem;
+  font-size: 18px;
 }
 
 /* line 40, ../../../theme/scss/base/_typography.scss */
 .zeta {
-  font-size: 1rem;
+  font-size: 16px;
 }
 
 /* line 40, ../../../theme/scss/base/_typography.scss */
 .milli {
-  font-size: 0.875rem;
+  font-size: 14px;
 }
 
 /* line 40, ../../../theme/scss/base/_typography.scss */
 .btn--small,
 .micro {
-  font-size: 0.75rem;
+  font-size: 12px;
 }
 
 /* line 40, ../../../theme/scss/base/_typography.scss */
 .btn--tiny,
 .nano {
-  font-size: 0.6875rem;
+  font-size: 11px;
 }
 
 /* line 46, ../../../theme/scss/base/_typography.scss */
@@ -378,7 +377,7 @@ h1 {
 @media (max-width: 47.4375em) {
   /* line 50, ../../../theme/scss/base/_typography.scss */
   h1 {
-    font-size: 2rem;
+    font-size: 32px;
   }
 }
 
@@ -537,16 +536,16 @@ body,
 
 /* line 154, ../../../theme/scss/base/_typography.scss */
 .line-heading {
-  padding-top: 0.6875rem;
+  padding-top: 11px;
 }
 /* line 158, ../../../theme/scss/base/_typography.scss */
 .line-heading:before {
   content: '';
   display: block;
   position: relative;
-  top: -0.6875rem;
-  border-top: solid 0.125rem #4299ff;
-  max-width: 9.375rem;
+  top: -11px;
+  border-top: solid 2px #4299ff;
+  max-width: 150px;
 }
 
 /* line 172, ../../../theme/scss/base/_typography.scss */
@@ -575,49 +574,49 @@ img {
 
 /* line 58, ../../../theme/scss/base/_breakpoints.scss */
 .m {
-  margin: 1.375rem;
+  margin: 22px;
 }
 
 @media (max-width: 47.4375em) {
   /* line 65, ../../../theme/scss/base/_breakpoints.scss */
   .small-m {
-    margin: 1.375rem;
+    margin: 22px;
   }
 }
 @media (min-width: 47.5em) and (max-width: 58.6875em) {
   /* line 65, ../../../theme/scss/base/_breakpoints.scss */
   .medium-m {
-    margin: 1.375rem;
+    margin: 22px;
   }
 }
 @media (min-width: 58.75em) {
   /* line 65, ../../../theme/scss/base/_breakpoints.scss */
   .large-m {
-    margin: 1.375rem;
+    margin: 22px;
   }
 }
 /* line 58, ../../../theme/scss/base/_breakpoints.scss */
 .card-list__item, .people-list__item,
 .p {
-  padding: 1.375rem;
+  padding: 22px;
 }
 
 @media (max-width: 47.4375em) {
   /* line 65, ../../../theme/scss/base/_breakpoints.scss */
   .small-p {
-    padding: 1.375rem;
+    padding: 22px;
   }
 }
 @media (min-width: 47.5em) and (max-width: 58.6875em) {
   /* line 65, ../../../theme/scss/base/_breakpoints.scss */
   .medium-p {
-    padding: 1.375rem;
+    padding: 22px;
   }
 }
 @media (min-width: 58.75em) {
   /* line 65, ../../../theme/scss/base/_breakpoints.scss */
   .large-p {
-    padding: 1.375rem;
+    padding: 22px;
   }
 }
 /* line 58, ../../../theme/scss/base/_breakpoints.scss */
@@ -669,1118 +668,1118 @@ img {
 }
 /* line 58, ../../../theme/scss/base/_breakpoints.scss */
 .mt {
-  margin-top: 1.375rem;
+  margin-top: 22px;
 }
 
 @media (max-width: 47.4375em) {
   /* line 65, ../../../theme/scss/base/_breakpoints.scss */
   .small-mt {
-    margin-top: 1.375rem;
+    margin-top: 22px;
   }
 }
 @media (min-width: 47.5em) and (max-width: 58.6875em) {
   /* line 65, ../../../theme/scss/base/_breakpoints.scss */
   .medium-mt {
-    margin-top: 1.375rem;
+    margin-top: 22px;
   }
 }
 @media (min-width: 58.75em) {
   /* line 65, ../../../theme/scss/base/_breakpoints.scss */
   .large-mt {
-    margin-top: 1.375rem;
+    margin-top: 22px;
   }
 }
 /* line 58, ../../../theme/scss/base/_breakpoints.scss */
 .main-nav__item a,
 .pt {
-  padding-top: 1.375rem;
+  padding-top: 22px;
 }
 
 @media (max-width: 47.4375em) {
   /* line 65, ../../../theme/scss/base/_breakpoints.scss */
   .main-nav__item a,
   .small-pt {
-    padding-top: 1.375rem;
+    padding-top: 22px;
   }
 }
 @media (min-width: 47.5em) and (max-width: 58.6875em) {
   /* line 65, ../../../theme/scss/base/_breakpoints.scss */
   .medium-pt {
-    padding-top: 1.375rem;
+    padding-top: 22px;
   }
 }
 @media (min-width: 58.75em) {
   /* line 65, ../../../theme/scss/base/_breakpoints.scss */
   .large-pt {
-    padding-top: 1.375rem;
+    padding-top: 22px;
   }
 }
 /* line 58, ../../../theme/scss/base/_breakpoints.scss */
 .ml {
-  margin-left: 1.375rem;
+  margin-left: 22px;
 }
 
 @media (max-width: 47.4375em) {
   /* line 65, ../../../theme/scss/base/_breakpoints.scss */
   .small-ml {
-    margin-left: 1.375rem;
+    margin-left: 22px;
   }
 }
 @media (min-width: 47.5em) and (max-width: 58.6875em) {
   /* line 65, ../../../theme/scss/base/_breakpoints.scss */
   .medium-ml {
-    margin-left: 1.375rem;
+    margin-left: 22px;
   }
 }
 @media (min-width: 58.75em) {
   /* line 65, ../../../theme/scss/base/_breakpoints.scss */
   .large-ml {
-    margin-left: 1.375rem;
+    margin-left: 22px;
   }
 }
 /* line 58, ../../../theme/scss/base/_breakpoints.scss */
 .sponsor-content__body,
 .pl {
-  padding-left: 1.375rem;
+  padding-left: 22px;
 }
 
 @media (max-width: 47.4375em) {
   /* line 65, ../../../theme/scss/base/_breakpoints.scss */
   .small-pl {
-    padding-left: 1.375rem;
+    padding-left: 22px;
   }
 }
 @media (min-width: 47.5em) and (max-width: 58.6875em) {
   /* line 65, ../../../theme/scss/base/_breakpoints.scss */
   .medium-pl {
-    padding-left: 1.375rem;
+    padding-left: 22px;
   }
 }
 @media (min-width: 58.75em) {
   /* line 65, ../../../theme/scss/base/_breakpoints.scss */
   .large-pl {
-    padding-left: 1.375rem;
+    padding-left: 22px;
   }
 }
 /* line 58, ../../../theme/scss/base/_breakpoints.scss */
 .article-list__item,
 .mb {
-  margin-bottom: 1.375rem;
+  margin-bottom: 22px;
 }
 
 @media (max-width: 47.4375em) {
   /* line 65, ../../../theme/scss/base/_breakpoints.scss */
   .small-mb {
-    margin-bottom: 1.375rem;
+    margin-bottom: 22px;
   }
 }
 @media (min-width: 47.5em) and (max-width: 58.6875em) {
   /* line 65, ../../../theme/scss/base/_breakpoints.scss */
   .medium-mb {
-    margin-bottom: 1.375rem;
+    margin-bottom: 22px;
   }
 }
 @media (min-width: 58.75em) {
   /* line 65, ../../../theme/scss/base/_breakpoints.scss */
   .large-mb {
-    margin-bottom: 1.375rem;
+    margin-bottom: 22px;
   }
 }
 /* line 58, ../../../theme/scss/base/_breakpoints.scss */
 .sponsor-content__body, .main-nav__item a, .article-list__item,
 .pb {
-  padding-bottom: 1.375rem;
+  padding-bottom: 22px;
 }
 
 @media (max-width: 47.4375em) {
   /* line 65, ../../../theme/scss/base/_breakpoints.scss */
   .main-nav__item a,
   .small-pb {
-    padding-bottom: 1.375rem;
+    padding-bottom: 22px;
   }
 }
 @media (min-width: 47.5em) and (max-width: 58.6875em) {
   /* line 65, ../../../theme/scss/base/_breakpoints.scss */
   .medium-pb {
-    padding-bottom: 1.375rem;
+    padding-bottom: 22px;
   }
 }
 @media (min-width: 58.75em) {
   /* line 65, ../../../theme/scss/base/_breakpoints.scss */
   .large-pb {
-    padding-bottom: 1.375rem;
+    padding-bottom: 22px;
   }
 }
 /* line 58, ../../../theme/scss/base/_breakpoints.scss */
 .mr {
-  margin-right: 1.375rem;
+  margin-right: 22px;
 }
 
 @media (max-width: 47.4375em) {
   /* line 65, ../../../theme/scss/base/_breakpoints.scss */
   .small-mr {
-    margin-right: 1.375rem;
+    margin-right: 22px;
   }
 }
 @media (min-width: 47.5em) and (max-width: 58.6875em) {
   /* line 65, ../../../theme/scss/base/_breakpoints.scss */
   .medium-mr {
-    margin-right: 1.375rem;
+    margin-right: 22px;
   }
 }
 @media (min-width: 58.75em) {
   /* line 65, ../../../theme/scss/base/_breakpoints.scss */
   .large-mr {
-    margin-right: 1.375rem;
+    margin-right: 22px;
   }
 }
 /* line 58, ../../../theme/scss/base/_breakpoints.scss */
 .sponsor-content__body,
 .pr {
-  padding-right: 1.375rem;
+  padding-right: 22px;
 }
 
 @media (max-width: 47.4375em) {
   /* line 65, ../../../theme/scss/base/_breakpoints.scss */
   .small-pr {
-    padding-right: 1.375rem;
+    padding-right: 22px;
   }
 }
 @media (min-width: 47.5em) and (max-width: 58.6875em) {
   /* line 65, ../../../theme/scss/base/_breakpoints.scss */
   .medium-pr {
-    padding-right: 1.375rem;
+    padding-right: 22px;
   }
 }
 @media (min-width: 58.75em) {
   /* line 65, ../../../theme/scss/base/_breakpoints.scss */
   .large-pr {
-    padding-right: 1.375rem;
+    padding-right: 22px;
   }
 }
 /* line 58, ../../../theme/scss/base/_breakpoints.scss */
 .m--tiny {
-  margin: 0.375rem;
+  margin: 6px;
 }
 
 @media (max-width: 47.4375em) {
   /* line 65, ../../../theme/scss/base/_breakpoints.scss */
   .small-m--tiny {
-    margin: 0.375rem;
+    margin: 6px;
   }
 }
 @media (min-width: 47.5em) and (max-width: 58.6875em) {
   /* line 65, ../../../theme/scss/base/_breakpoints.scss */
   .medium-m--tiny {
-    margin: 0.375rem;
+    margin: 6px;
   }
 }
 @media (min-width: 58.75em) {
   /* line 65, ../../../theme/scss/base/_breakpoints.scss */
   .large-m--tiny {
-    margin: 0.375rem;
+    margin: 6px;
   }
 }
 /* line 58, ../../../theme/scss/base/_breakpoints.scss */
 .p--tiny {
-  padding: 0.375rem;
+  padding: 6px;
 }
 
 @media (max-width: 47.4375em) {
   /* line 65, ../../../theme/scss/base/_breakpoints.scss */
   .small-p--tiny {
-    padding: 0.375rem;
+    padding: 6px;
   }
 }
 @media (min-width: 47.5em) and (max-width: 58.6875em) {
   /* line 65, ../../../theme/scss/base/_breakpoints.scss */
   .medium-p--tiny {
-    padding: 0.375rem;
+    padding: 6px;
   }
 }
 @media (min-width: 58.75em) {
   /* line 65, ../../../theme/scss/base/_breakpoints.scss */
   .large-p--tiny {
-    padding: 0.375rem;
+    padding: 6px;
   }
 }
 /* line 58, ../../../theme/scss/base/_breakpoints.scss */
 .mt--tiny {
-  margin-top: 0.375rem;
+  margin-top: 6px;
 }
 
 @media (max-width: 47.4375em) {
   /* line 65, ../../../theme/scss/base/_breakpoints.scss */
   .small-mt--tiny {
-    margin-top: 0.375rem;
+    margin-top: 6px;
   }
 }
 @media (min-width: 47.5em) and (max-width: 58.6875em) {
   /* line 65, ../../../theme/scss/base/_breakpoints.scss */
   .medium-mt--tiny {
-    margin-top: 0.375rem;
+    margin-top: 6px;
   }
 }
 @media (min-width: 58.75em) {
   /* line 65, ../../../theme/scss/base/_breakpoints.scss */
   .large-mt--tiny {
-    margin-top: 0.375rem;
+    margin-top: 6px;
   }
 }
 /* line 58, ../../../theme/scss/base/_breakpoints.scss */
 .pt--tiny {
-  padding-top: 0.375rem;
+  padding-top: 6px;
 }
 
 @media (max-width: 47.4375em) {
   /* line 65, ../../../theme/scss/base/_breakpoints.scss */
   .small-pt--tiny {
-    padding-top: 0.375rem;
+    padding-top: 6px;
   }
 }
 @media (min-width: 47.5em) and (max-width: 58.6875em) {
   /* line 65, ../../../theme/scss/base/_breakpoints.scss */
   .medium-pt--tiny {
-    padding-top: 0.375rem;
+    padding-top: 6px;
   }
 }
 @media (min-width: 58.75em) {
   /* line 65, ../../../theme/scss/base/_breakpoints.scss */
   .large-pt--tiny {
-    padding-top: 0.375rem;
+    padding-top: 6px;
   }
 }
 /* line 58, ../../../theme/scss/base/_breakpoints.scss */
 .ml--tiny {
-  margin-left: 0.375rem;
+  margin-left: 6px;
 }
 
 @media (max-width: 47.4375em) {
   /* line 65, ../../../theme/scss/base/_breakpoints.scss */
   .small-ml--tiny {
-    margin-left: 0.375rem;
+    margin-left: 6px;
   }
 }
 @media (min-width: 47.5em) and (max-width: 58.6875em) {
   /* line 65, ../../../theme/scss/base/_breakpoints.scss */
   .medium-ml--tiny {
-    margin-left: 0.375rem;
+    margin-left: 6px;
   }
 }
 @media (min-width: 58.75em) {
   /* line 65, ../../../theme/scss/base/_breakpoints.scss */
   .large-ml--tiny {
-    margin-left: 0.375rem;
+    margin-left: 6px;
   }
 }
 /* line 58, ../../../theme/scss/base/_breakpoints.scss */
 .pl--tiny {
-  padding-left: 0.375rem;
+  padding-left: 6px;
 }
 
 @media (max-width: 47.4375em) {
   /* line 65, ../../../theme/scss/base/_breakpoints.scss */
   .small-pl--tiny {
-    padding-left: 0.375rem;
+    padding-left: 6px;
   }
 }
 @media (min-width: 47.5em) and (max-width: 58.6875em) {
   /* line 65, ../../../theme/scss/base/_breakpoints.scss */
   .medium-pl--tiny {
-    padding-left: 0.375rem;
+    padding-left: 6px;
   }
 }
 @media (min-width: 58.75em) {
   /* line 65, ../../../theme/scss/base/_breakpoints.scss */
   .large-pl--tiny {
-    padding-left: 0.375rem;
+    padding-left: 6px;
   }
 }
 /* line 58, ../../../theme/scss/base/_breakpoints.scss */
 .mb--tiny {
-  margin-bottom: 0.375rem;
+  margin-bottom: 6px;
 }
 
 @media (max-width: 47.4375em) {
   /* line 65, ../../../theme/scss/base/_breakpoints.scss */
   .small-mb--tiny {
-    margin-bottom: 0.375rem;
+    margin-bottom: 6px;
   }
 }
 @media (min-width: 47.5em) and (max-width: 58.6875em) {
   /* line 65, ../../../theme/scss/base/_breakpoints.scss */
   .medium-mb--tiny {
-    margin-bottom: 0.375rem;
+    margin-bottom: 6px;
   }
 }
 @media (min-width: 58.75em) {
   /* line 65, ../../../theme/scss/base/_breakpoints.scss */
   .large-mb--tiny {
-    margin-bottom: 0.375rem;
+    margin-bottom: 6px;
   }
 }
 /* line 58, ../../../theme/scss/base/_breakpoints.scss */
 .pb--tiny {
-  padding-bottom: 0.375rem;
+  padding-bottom: 6px;
 }
 
 @media (max-width: 47.4375em) {
   /* line 65, ../../../theme/scss/base/_breakpoints.scss */
   .small-pb--tiny {
-    padding-bottom: 0.375rem;
+    padding-bottom: 6px;
   }
 }
 @media (min-width: 47.5em) and (max-width: 58.6875em) {
   /* line 65, ../../../theme/scss/base/_breakpoints.scss */
   .medium-pb--tiny {
-    padding-bottom: 0.375rem;
+    padding-bottom: 6px;
   }
 }
 @media (min-width: 58.75em) {
   /* line 65, ../../../theme/scss/base/_breakpoints.scss */
   .large-pb--tiny {
-    padding-bottom: 0.375rem;
+    padding-bottom: 6px;
   }
 }
 /* line 58, ../../../theme/scss/base/_breakpoints.scss */
 .mr--tiny {
-  margin-right: 0.375rem;
+  margin-right: 6px;
 }
 
 @media (max-width: 47.4375em) {
   /* line 65, ../../../theme/scss/base/_breakpoints.scss */
   .small-mr--tiny {
-    margin-right: 0.375rem;
+    margin-right: 6px;
   }
 }
 @media (min-width: 47.5em) and (max-width: 58.6875em) {
   /* line 65, ../../../theme/scss/base/_breakpoints.scss */
   .medium-mr--tiny {
-    margin-right: 0.375rem;
+    margin-right: 6px;
   }
 }
 @media (min-width: 58.75em) {
   /* line 65, ../../../theme/scss/base/_breakpoints.scss */
   .large-mr--tiny {
-    margin-right: 0.375rem;
+    margin-right: 6px;
   }
 }
 /* line 58, ../../../theme/scss/base/_breakpoints.scss */
 .pr--tiny {
-  padding-right: 0.375rem;
+  padding-right: 6px;
 }
 
 @media (max-width: 47.4375em) {
   /* line 65, ../../../theme/scss/base/_breakpoints.scss */
   .small-pr--tiny {
-    padding-right: 0.375rem;
+    padding-right: 6px;
   }
 }
 @media (min-width: 47.5em) and (max-width: 58.6875em) {
   /* line 65, ../../../theme/scss/base/_breakpoints.scss */
   .medium-pr--tiny {
-    padding-right: 0.375rem;
+    padding-right: 6px;
   }
 }
 @media (min-width: 58.75em) {
   /* line 65, ../../../theme/scss/base/_breakpoints.scss */
   .large-pr--tiny {
-    padding-right: 0.375rem;
+    padding-right: 6px;
   }
 }
 /* line 58, ../../../theme/scss/base/_breakpoints.scss */
 .m--small {
-  margin: 0.6875rem;
+  margin: 11px;
 }
 
 @media (max-width: 47.4375em) {
   /* line 65, ../../../theme/scss/base/_breakpoints.scss */
   .small-m--small {
-    margin: 0.6875rem;
+    margin: 11px;
   }
 }
 @media (min-width: 47.5em) and (max-width: 58.6875em) {
   /* line 65, ../../../theme/scss/base/_breakpoints.scss */
   .medium-m--small {
-    margin: 0.6875rem;
+    margin: 11px;
   }
 }
 @media (min-width: 58.75em) {
   /* line 65, ../../../theme/scss/base/_breakpoints.scss */
   .large-m--small {
-    margin: 0.6875rem;
+    margin: 11px;
   }
 }
 /* line 58, ../../../theme/scss/base/_breakpoints.scss */
 .p--small {
-  padding: 0.6875rem;
+  padding: 11px;
 }
 
 @media (max-width: 47.4375em) {
   /* line 65, ../../../theme/scss/base/_breakpoints.scss */
   .small-p--small {
-    padding: 0.6875rem;
+    padding: 11px;
   }
 }
 @media (min-width: 47.5em) and (max-width: 58.6875em) {
   /* line 65, ../../../theme/scss/base/_breakpoints.scss */
   .medium-p--small {
-    padding: 0.6875rem;
+    padding: 11px;
   }
 }
 @media (min-width: 58.75em) {
   /* line 65, ../../../theme/scss/base/_breakpoints.scss */
   .large-p--small {
-    padding: 0.6875rem;
+    padding: 11px;
   }
 }
 /* line 58, ../../../theme/scss/base/_breakpoints.scss */
 .mt--small {
-  margin-top: 0.6875rem;
+  margin-top: 11px;
 }
 
 @media (max-width: 47.4375em) {
   /* line 65, ../../../theme/scss/base/_breakpoints.scss */
   .small-mt--small {
-    margin-top: 0.6875rem;
+    margin-top: 11px;
   }
 }
 @media (min-width: 47.5em) and (max-width: 58.6875em) {
   /* line 65, ../../../theme/scss/base/_breakpoints.scss */
   .medium-mt--small {
-    margin-top: 0.6875rem;
+    margin-top: 11px;
   }
 }
 @media (min-width: 58.75em) {
   /* line 65, ../../../theme/scss/base/_breakpoints.scss */
   .large-mt--small {
-    margin-top: 0.6875rem;
+    margin-top: 11px;
   }
 }
 /* line 58, ../../../theme/scss/base/_breakpoints.scss */
 .main-nav,
 .pt--small {
-  padding-top: 0.6875rem;
+  padding-top: 11px;
 }
 
 @media (max-width: 47.4375em) {
   /* line 65, ../../../theme/scss/base/_breakpoints.scss */
   .small-pt--small {
-    padding-top: 0.6875rem;
+    padding-top: 11px;
   }
 }
 @media (min-width: 47.5em) and (max-width: 58.6875em) {
   /* line 65, ../../../theme/scss/base/_breakpoints.scss */
   .medium-pt--small {
-    padding-top: 0.6875rem;
+    padding-top: 11px;
   }
 }
 @media (min-width: 58.75em) {
   /* line 65, ../../../theme/scss/base/_breakpoints.scss */
   .large-pt--small {
-    padding-top: 0.6875rem;
+    padding-top: 11px;
   }
 }
 /* line 58, ../../../theme/scss/base/_breakpoints.scss */
 .ml--small {
-  margin-left: 0.6875rem;
+  margin-left: 11px;
 }
 
 @media (max-width: 47.4375em) {
   /* line 65, ../../../theme/scss/base/_breakpoints.scss */
   .small-ml--small {
-    margin-left: 0.6875rem;
+    margin-left: 11px;
   }
 }
 @media (min-width: 47.5em) and (max-width: 58.6875em) {
   /* line 65, ../../../theme/scss/base/_breakpoints.scss */
   .medium-ml--small {
-    margin-left: 0.6875rem;
+    margin-left: 11px;
   }
 }
 @media (min-width: 58.75em) {
   /* line 65, ../../../theme/scss/base/_breakpoints.scss */
   .large-ml--small {
-    margin-left: 0.6875rem;
+    margin-left: 11px;
   }
 }
 /* line 58, ../../../theme/scss/base/_breakpoints.scss */
 .main-nav__item a,
 .pl--small {
-  padding-left: 0.6875rem;
+  padding-left: 11px;
 }
 
 @media (max-width: 47.4375em) {
   /* line 65, ../../../theme/scss/base/_breakpoints.scss */
   .small-pl--small {
-    padding-left: 0.6875rem;
+    padding-left: 11px;
   }
 }
 @media (min-width: 47.5em) and (max-width: 58.6875em) {
   /* line 65, ../../../theme/scss/base/_breakpoints.scss */
   .medium-pl--small {
-    padding-left: 0.6875rem;
+    padding-left: 11px;
   }
 }
 @media (min-width: 58.75em) {
   /* line 65, ../../../theme/scss/base/_breakpoints.scss */
   .large-pl--small {
-    padding-left: 0.6875rem;
+    padding-left: 11px;
   }
 }
 /* line 58, ../../../theme/scss/base/_breakpoints.scss */
 .category-list__item,
 .mb--small {
-  margin-bottom: 0.6875rem;
+  margin-bottom: 11px;
 }
 
 @media (max-width: 47.4375em) {
   /* line 65, ../../../theme/scss/base/_breakpoints.scss */
   .small-mb--small {
-    margin-bottom: 0.6875rem;
+    margin-bottom: 11px;
   }
 }
 @media (min-width: 47.5em) and (max-width: 58.6875em) {
   /* line 65, ../../../theme/scss/base/_breakpoints.scss */
   .medium-mb--small {
-    margin-bottom: 0.6875rem;
+    margin-bottom: 11px;
   }
 }
 @media (min-width: 58.75em) {
   /* line 65, ../../../theme/scss/base/_breakpoints.scss */
   .large-mb--small {
-    margin-bottom: 0.6875rem;
+    margin-bottom: 11px;
   }
 }
 /* line 58, ../../../theme/scss/base/_breakpoints.scss */
 .pb--small {
-  padding-bottom: 0.6875rem;
+  padding-bottom: 11px;
 }
 
 @media (max-width: 47.4375em) {
   /* line 65, ../../../theme/scss/base/_breakpoints.scss */
   .small-pb--small {
-    padding-bottom: 0.6875rem;
+    padding-bottom: 11px;
   }
 }
 @media (min-width: 47.5em) and (max-width: 58.6875em) {
   /* line 65, ../../../theme/scss/base/_breakpoints.scss */
   .medium-pb--small {
-    padding-bottom: 0.6875rem;
+    padding-bottom: 11px;
   }
 }
 @media (min-width: 58.75em) {
   /* line 65, ../../../theme/scss/base/_breakpoints.scss */
   .large-pb--small {
-    padding-bottom: 0.6875rem;
+    padding-bottom: 11px;
   }
 }
 /* line 58, ../../../theme/scss/base/_breakpoints.scss */
 .mr--small {
-  margin-right: 0.6875rem;
+  margin-right: 11px;
 }
 
 @media (max-width: 47.4375em) {
   /* line 65, ../../../theme/scss/base/_breakpoints.scss */
   .small-mr--small {
-    margin-right: 0.6875rem;
+    margin-right: 11px;
   }
 }
 @media (min-width: 47.5em) and (max-width: 58.6875em) {
   /* line 65, ../../../theme/scss/base/_breakpoints.scss */
   .medium-mr--small {
-    margin-right: 0.6875rem;
+    margin-right: 11px;
   }
 }
 @media (min-width: 58.75em) {
   /* line 65, ../../../theme/scss/base/_breakpoints.scss */
   .large-mr--small {
-    margin-right: 0.6875rem;
+    margin-right: 11px;
   }
 }
 /* line 58, ../../../theme/scss/base/_breakpoints.scss */
 .main-nav__item a,
 .pr--small {
-  padding-right: 0.6875rem;
+  padding-right: 11px;
 }
 
 @media (max-width: 47.4375em) {
   /* line 65, ../../../theme/scss/base/_breakpoints.scss */
   .small-pr--small {
-    padding-right: 0.6875rem;
+    padding-right: 11px;
   }
 }
 @media (min-width: 47.5em) and (max-width: 58.6875em) {
   /* line 65, ../../../theme/scss/base/_breakpoints.scss */
   .medium-pr--small {
-    padding-right: 0.6875rem;
+    padding-right: 11px;
   }
 }
 @media (min-width: 58.75em) {
   /* line 65, ../../../theme/scss/base/_breakpoints.scss */
   .large-pr--small {
-    padding-right: 0.6875rem;
+    padding-right: 11px;
   }
 }
 /* line 58, ../../../theme/scss/base/_breakpoints.scss */
 .m--large {
-  margin: 2.75rem;
+  margin: 44px;
 }
 
 @media (max-width: 47.4375em) {
   /* line 65, ../../../theme/scss/base/_breakpoints.scss */
   .small-m--large {
-    margin: 2.75rem;
+    margin: 44px;
   }
 }
 @media (min-width: 47.5em) and (max-width: 58.6875em) {
   /* line 65, ../../../theme/scss/base/_breakpoints.scss */
   .medium-m--large {
-    margin: 2.75rem;
+    margin: 44px;
   }
 }
 @media (min-width: 58.75em) {
   /* line 65, ../../../theme/scss/base/_breakpoints.scss */
   .large-m--large {
-    margin: 2.75rem;
+    margin: 44px;
   }
 }
 /* line 58, ../../../theme/scss/base/_breakpoints.scss */
 .p--large {
-  padding: 2.75rem;
+  padding: 44px;
 }
 
 @media (max-width: 47.4375em) {
   /* line 65, ../../../theme/scss/base/_breakpoints.scss */
   .small-p--large {
-    padding: 2.75rem;
+    padding: 44px;
   }
 }
 @media (min-width: 47.5em) and (max-width: 58.6875em) {
   /* line 65, ../../../theme/scss/base/_breakpoints.scss */
   .medium-p--large {
-    padding: 2.75rem;
+    padding: 44px;
   }
 }
 @media (min-width: 58.75em) {
   /* line 65, ../../../theme/scss/base/_breakpoints.scss */
   .large-p--large {
-    padding: 2.75rem;
+    padding: 44px;
   }
 }
 /* line 58, ../../../theme/scss/base/_breakpoints.scss */
 .mt--large {
-  margin-top: 2.75rem;
+  margin-top: 44px;
 }
 
 @media (max-width: 47.4375em) {
   /* line 65, ../../../theme/scss/base/_breakpoints.scss */
   .small-mt--large {
-    margin-top: 2.75rem;
+    margin-top: 44px;
   }
 }
 @media (min-width: 47.5em) and (max-width: 58.6875em) {
   /* line 65, ../../../theme/scss/base/_breakpoints.scss */
   .medium-mt--large {
-    margin-top: 2.75rem;
+    margin-top: 44px;
   }
 }
 @media (min-width: 58.75em) {
   /* line 65, ../../../theme/scss/base/_breakpoints.scss */
   .large-mt--large {
-    margin-top: 2.75rem;
+    margin-top: 44px;
   }
 }
 /* line 58, ../../../theme/scss/base/_breakpoints.scss */
 .pt--large {
-  padding-top: 2.75rem;
+  padding-top: 44px;
 }
 
 @media (max-width: 47.4375em) {
   /* line 65, ../../../theme/scss/base/_breakpoints.scss */
   .small-pt--large {
-    padding-top: 2.75rem;
+    padding-top: 44px;
   }
 }
 @media (min-width: 47.5em) and (max-width: 58.6875em) {
   /* line 65, ../../../theme/scss/base/_breakpoints.scss */
   .medium-pt--large {
-    padding-top: 2.75rem;
+    padding-top: 44px;
   }
 }
 @media (min-width: 58.75em) {
   /* line 65, ../../../theme/scss/base/_breakpoints.scss */
   .large-pt--large {
-    padding-top: 2.75rem;
+    padding-top: 44px;
   }
 }
 /* line 58, ../../../theme/scss/base/_breakpoints.scss */
 .ml--large {
-  margin-left: 2.75rem;
+  margin-left: 44px;
 }
 
 @media (max-width: 47.4375em) {
   /* line 65, ../../../theme/scss/base/_breakpoints.scss */
   .small-ml--large {
-    margin-left: 2.75rem;
+    margin-left: 44px;
   }
 }
 @media (min-width: 47.5em) and (max-width: 58.6875em) {
   /* line 65, ../../../theme/scss/base/_breakpoints.scss */
   .medium-ml--large {
-    margin-left: 2.75rem;
+    margin-left: 44px;
   }
 }
 @media (min-width: 58.75em) {
   /* line 65, ../../../theme/scss/base/_breakpoints.scss */
   .large-ml--large {
-    margin-left: 2.75rem;
+    margin-left: 44px;
   }
 }
 /* line 58, ../../../theme/scss/base/_breakpoints.scss */
 .pl--large {
-  padding-left: 2.75rem;
+  padding-left: 44px;
 }
 
 @media (max-width: 47.4375em) {
   /* line 65, ../../../theme/scss/base/_breakpoints.scss */
   .small-pl--large {
-    padding-left: 2.75rem;
+    padding-left: 44px;
   }
 }
 @media (min-width: 47.5em) and (max-width: 58.6875em) {
   /* line 65, ../../../theme/scss/base/_breakpoints.scss */
   .medium-pl--large {
-    padding-left: 2.75rem;
+    padding-left: 44px;
   }
 }
 @media (min-width: 58.75em) {
   /* line 65, ../../../theme/scss/base/_breakpoints.scss */
   .large-pl--large {
-    padding-left: 2.75rem;
+    padding-left: 44px;
   }
 }
 /* line 58, ../../../theme/scss/base/_breakpoints.scss */
 .card-list__item, .people-list__item,
 .mb--large {
-  margin-bottom: 2.75rem;
+  margin-bottom: 44px;
 }
 
 @media (max-width: 47.4375em) {
   /* line 65, ../../../theme/scss/base/_breakpoints.scss */
   .small-mb--large {
-    margin-bottom: 2.75rem;
+    margin-bottom: 44px;
   }
 }
 @media (min-width: 47.5em) and (max-width: 58.6875em) {
   /* line 65, ../../../theme/scss/base/_breakpoints.scss */
   .medium-mb--large {
-    margin-bottom: 2.75rem;
+    margin-bottom: 44px;
   }
 }
 @media (min-width: 58.75em) {
   /* line 65, ../../../theme/scss/base/_breakpoints.scss */
   .large-mb--large {
-    margin-bottom: 2.75rem;
+    margin-bottom: 44px;
   }
 }
 /* line 58, ../../../theme/scss/base/_breakpoints.scss */
 .pb--large {
-  padding-bottom: 2.75rem;
+  padding-bottom: 44px;
 }
 
 @media (max-width: 47.4375em) {
   /* line 65, ../../../theme/scss/base/_breakpoints.scss */
   .small-pb--large {
-    padding-bottom: 2.75rem;
+    padding-bottom: 44px;
   }
 }
 @media (min-width: 47.5em) and (max-width: 58.6875em) {
   /* line 65, ../../../theme/scss/base/_breakpoints.scss */
   .medium-pb--large {
-    padding-bottom: 2.75rem;
+    padding-bottom: 44px;
   }
 }
 @media (min-width: 58.75em) {
   /* line 65, ../../../theme/scss/base/_breakpoints.scss */
   .large-pb--large {
-    padding-bottom: 2.75rem;
+    padding-bottom: 44px;
   }
 }
 /* line 58, ../../../theme/scss/base/_breakpoints.scss */
 .mr--large {
-  margin-right: 2.75rem;
+  margin-right: 44px;
 }
 
 @media (max-width: 47.4375em) {
   /* line 65, ../../../theme/scss/base/_breakpoints.scss */
   .small-mr--large {
-    margin-right: 2.75rem;
+    margin-right: 44px;
   }
 }
 @media (min-width: 47.5em) and (max-width: 58.6875em) {
   /* line 65, ../../../theme/scss/base/_breakpoints.scss */
   .medium-mr--large {
-    margin-right: 2.75rem;
+    margin-right: 44px;
   }
 }
 @media (min-width: 58.75em) {
   /* line 65, ../../../theme/scss/base/_breakpoints.scss */
   .large-mr--large {
-    margin-right: 2.75rem;
+    margin-right: 44px;
   }
 }
 /* line 58, ../../../theme/scss/base/_breakpoints.scss */
 .pr--large {
-  padding-right: 2.75rem;
+  padding-right: 44px;
 }
 
 @media (max-width: 47.4375em) {
   /* line 65, ../../../theme/scss/base/_breakpoints.scss */
   .small-pr--large {
-    padding-right: 2.75rem;
+    padding-right: 44px;
   }
 }
 @media (min-width: 47.5em) and (max-width: 58.6875em) {
   /* line 65, ../../../theme/scss/base/_breakpoints.scss */
   .medium-pr--large {
-    padding-right: 2.75rem;
+    padding-right: 44px;
   }
 }
 @media (min-width: 58.75em) {
   /* line 65, ../../../theme/scss/base/_breakpoints.scss */
   .large-pr--large {
-    padding-right: 2.75rem;
+    padding-right: 44px;
   }
 }
 /* line 58, ../../../theme/scss/base/_breakpoints.scss */
 .m--huge {
-  margin: 5.5rem;
+  margin: 88px;
 }
 
 @media (max-width: 47.4375em) {
   /* line 65, ../../../theme/scss/base/_breakpoints.scss */
   .small-m--huge {
-    margin: 5.5rem;
+    margin: 88px;
   }
 }
 @media (min-width: 47.5em) and (max-width: 58.6875em) {
   /* line 65, ../../../theme/scss/base/_breakpoints.scss */
   .medium-m--huge {
-    margin: 5.5rem;
+    margin: 88px;
   }
 }
 @media (min-width: 58.75em) {
   /* line 65, ../../../theme/scss/base/_breakpoints.scss */
   .large-m--huge {
-    margin: 5.5rem;
+    margin: 88px;
   }
 }
 /* line 58, ../../../theme/scss/base/_breakpoints.scss */
 .p--huge {
-  padding: 5.5rem;
+  padding: 88px;
 }
 
 @media (max-width: 47.4375em) {
   /* line 65, ../../../theme/scss/base/_breakpoints.scss */
   .small-p--huge {
-    padding: 5.5rem;
+    padding: 88px;
   }
 }
 @media (min-width: 47.5em) and (max-width: 58.6875em) {
   /* line 65, ../../../theme/scss/base/_breakpoints.scss */
   .medium-p--huge {
-    padding: 5.5rem;
+    padding: 88px;
   }
 }
 @media (min-width: 58.75em) {
   /* line 65, ../../../theme/scss/base/_breakpoints.scss */
   .large-p--huge {
-    padding: 5.5rem;
+    padding: 88px;
   }
 }
 /* line 58, ../../../theme/scss/base/_breakpoints.scss */
 .mt--huge {
-  margin-top: 5.5rem;
+  margin-top: 88px;
 }
 
 @media (max-width: 47.4375em) {
   /* line 65, ../../../theme/scss/base/_breakpoints.scss */
   .small-mt--huge {
-    margin-top: 5.5rem;
+    margin-top: 88px;
   }
 }
 @media (min-width: 47.5em) and (max-width: 58.6875em) {
   /* line 65, ../../../theme/scss/base/_breakpoints.scss */
   .medium-mt--huge {
-    margin-top: 5.5rem;
+    margin-top: 88px;
   }
 }
 @media (min-width: 58.75em) {
   /* line 65, ../../../theme/scss/base/_breakpoints.scss */
   .large-mt--huge {
-    margin-top: 5.5rem;
+    margin-top: 88px;
   }
 }
 /* line 58, ../../../theme/scss/base/_breakpoints.scss */
 .pt--huge {
-  padding-top: 5.5rem;
+  padding-top: 88px;
 }
 
 @media (max-width: 47.4375em) {
   /* line 65, ../../../theme/scss/base/_breakpoints.scss */
   .small-pt--huge {
-    padding-top: 5.5rem;
+    padding-top: 88px;
   }
 }
 @media (min-width: 47.5em) and (max-width: 58.6875em) {
   /* line 65, ../../../theme/scss/base/_breakpoints.scss */
   .medium-pt--huge {
-    padding-top: 5.5rem;
+    padding-top: 88px;
   }
 }
 @media (min-width: 58.75em) {
   /* line 65, ../../../theme/scss/base/_breakpoints.scss */
   .large-pt--huge {
-    padding-top: 5.5rem;
+    padding-top: 88px;
   }
 }
 /* line 58, ../../../theme/scss/base/_breakpoints.scss */
 .ml--huge {
-  margin-left: 5.5rem;
+  margin-left: 88px;
 }
 
 @media (max-width: 47.4375em) {
   /* line 65, ../../../theme/scss/base/_breakpoints.scss */
   .small-ml--huge {
-    margin-left: 5.5rem;
+    margin-left: 88px;
   }
 }
 @media (min-width: 47.5em) and (max-width: 58.6875em) {
   /* line 65, ../../../theme/scss/base/_breakpoints.scss */
   .medium-ml--huge {
-    margin-left: 5.5rem;
+    margin-left: 88px;
   }
 }
 @media (min-width: 58.75em) {
   /* line 65, ../../../theme/scss/base/_breakpoints.scss */
   .large-ml--huge {
-    margin-left: 5.5rem;
+    margin-left: 88px;
   }
 }
 /* line 58, ../../../theme/scss/base/_breakpoints.scss */
 .pl--huge {
-  padding-left: 5.5rem;
+  padding-left: 88px;
 }
 
 @media (max-width: 47.4375em) {
   /* line 65, ../../../theme/scss/base/_breakpoints.scss */
   .small-pl--huge {
-    padding-left: 5.5rem;
+    padding-left: 88px;
   }
 }
 @media (min-width: 47.5em) and (max-width: 58.6875em) {
   /* line 65, ../../../theme/scss/base/_breakpoints.scss */
   .medium-pl--huge {
-    padding-left: 5.5rem;
+    padding-left: 88px;
   }
 }
 @media (min-width: 58.75em) {
   /* line 65, ../../../theme/scss/base/_breakpoints.scss */
   .large-pl--huge {
-    padding-left: 5.5rem;
+    padding-left: 88px;
   }
 }
 /* line 58, ../../../theme/scss/base/_breakpoints.scss */
 .mb--huge {
-  margin-bottom: 5.5rem;
+  margin-bottom: 88px;
 }
 
 @media (max-width: 47.4375em) {
   /* line 65, ../../../theme/scss/base/_breakpoints.scss */
   .small-mb--huge {
-    margin-bottom: 5.5rem;
+    margin-bottom: 88px;
   }
 }
 @media (min-width: 47.5em) and (max-width: 58.6875em) {
   /* line 65, ../../../theme/scss/base/_breakpoints.scss */
   .medium-mb--huge {
-    margin-bottom: 5.5rem;
+    margin-bottom: 88px;
   }
 }
 @media (min-width: 58.75em) {
   /* line 65, ../../../theme/scss/base/_breakpoints.scss */
   .large-mb--huge {
-    margin-bottom: 5.5rem;
+    margin-bottom: 88px;
   }
 }
 /* line 58, ../../../theme/scss/base/_breakpoints.scss */
 .pb--huge {
-  padding-bottom: 5.5rem;
+  padding-bottom: 88px;
 }
 
 @media (max-width: 47.4375em) {
   /* line 65, ../../../theme/scss/base/_breakpoints.scss */
   .small-pb--huge {
-    padding-bottom: 5.5rem;
+    padding-bottom: 88px;
   }
 }
 @media (min-width: 47.5em) and (max-width: 58.6875em) {
   /* line 65, ../../../theme/scss/base/_breakpoints.scss */
   .medium-pb--huge {
-    padding-bottom: 5.5rem;
+    padding-bottom: 88px;
   }
 }
 @media (min-width: 58.75em) {
   /* line 65, ../../../theme/scss/base/_breakpoints.scss */
   .large-pb--huge {
-    padding-bottom: 5.5rem;
+    padding-bottom: 88px;
   }
 }
 /* line 58, ../../../theme/scss/base/_breakpoints.scss */
 .mr--huge {
-  margin-right: 5.5rem;
+  margin-right: 88px;
 }
 
 @media (max-width: 47.4375em) {
   /* line 65, ../../../theme/scss/base/_breakpoints.scss */
   .small-mr--huge {
-    margin-right: 5.5rem;
+    margin-right: 88px;
   }
 }
 @media (min-width: 47.5em) and (max-width: 58.6875em) {
   /* line 65, ../../../theme/scss/base/_breakpoints.scss */
   .medium-mr--huge {
-    margin-right: 5.5rem;
+    margin-right: 88px;
   }
 }
 @media (min-width: 58.75em) {
   /* line 65, ../../../theme/scss/base/_breakpoints.scss */
   .large-mr--huge {
-    margin-right: 5.5rem;
+    margin-right: 88px;
   }
 }
 /* line 58, ../../../theme/scss/base/_breakpoints.scss */
 .pr--huge {
-  padding-right: 5.5rem;
+  padding-right: 88px;
 }
 
 @media (max-width: 47.4375em) {
   /* line 65, ../../../theme/scss/base/_breakpoints.scss */
   .small-pr--huge {
-    padding-right: 5.5rem;
+    padding-right: 88px;
   }
 }
 @media (min-width: 47.5em) and (max-width: 58.6875em) {
   /* line 65, ../../../theme/scss/base/_breakpoints.scss */
   .medium-pr--huge {
-    padding-right: 5.5rem;
+    padding-right: 88px;
   }
 }
 @media (min-width: 58.75em) {
   /* line 65, ../../../theme/scss/base/_breakpoints.scss */
   .large-pr--huge {
-    padding-right: 5.5rem;
+    padding-right: 88px;
   }
 }
 /* line 5, ../../../theme/scss/base/_avatar.scss */
@@ -1803,8 +1802,8 @@ img {
   padding: .65em 1em;
   text-align: center;
   background-color: transparent;
-  border: solid 0.125rem #4299ff;
-  border-radius: 0.25rem;
+  border: solid 2px #4299ff;
+  border-radius: 4px;
   transition: all 0.15s cubic-bezier(0.4, 0, 0.2, 1);
 }
 /* line 14, ../../../theme/scss/base/_buttons.scss */
@@ -1815,12 +1814,12 @@ img {
 /* line 21, ../../../theme/scss/base/_buttons.scss */
 .btn--small {
   padding: .3em .5em;
-  border-width: 0.0625rem;
+  border-width: 1px;
 }
 /* line 27, ../../../theme/scss/base/_buttons.scss */
 .btn--tiny {
   padding: .3em .5em;
-  border-width: 0.0625rem;
+  border-width: 1px;
 }
 
 /* line 5, ../../../theme/scss/base/_containers.scss */
@@ -1840,7 +1839,7 @@ img {
   padding: 0;
   margin: 0;
 }
-/* line 10, ../../../theme/scss/base/_nav.scss */
+/* line 11, ../../../theme/scss/base/_nav.scss */
 .nav li {
   display: inline-block;
 }
@@ -1852,9 +1851,9 @@ img {
 
 /* line 5, ../../../theme/scss/base/_forms.scss */
 input {
-  border: solid 0.125rem #4299ff;
+  border: solid 2px #4299ff;
   padding: .65em 1em;
-  border-radius: 0.25rem;
+  border-radius: 4px;
 }
 /* line 10, ../../../theme/scss/base/_forms.scss */
 input[type=text], input[type=email] {
@@ -1899,16 +1898,16 @@ input[type=button], input[type="submit"] {
 /* line 46, ../../../theme/scss/base/_forms.scss */
 .cfr {
   position: absolute;
-  left: -312.5rem;
+  left: -5000px;
 }
 
 /* line 5, ../../../theme/scss/layout/_wrapper.scss */
 .wrapper {
-  max-width: 78.75rem;
+  max-width: 1260px;
   margin-left: auto;
   margin-right: auto;
-  padding-left: 1.375rem;
-  padding-right: 1.375rem;
+  padding-left: 22px;
+  padding-right: 22px;
 }
 
 /* line 17, ../../../theme/scss/layout/_wrapper.scss */
@@ -1935,12 +1934,14 @@ input[type=button], input[type="submit"] {
 }
 /* line 17, ../../../theme/scss/modules/_cards.scss */
 .card-list__item {
+  hover: actice;
   position: relative;
-  max-width: 18.75rem;
+  max-width: 300px;
   margin-left: auto;
   margin-right: auto;
-  border-radius: 0.25rem;
-  border: solid 0.125rem rgba(66, 153, 255, 0.05);
+  border-radius: 6px;
+  border: solid 5px rgba(66, 153, 255, 0.1);
+  box-shadow: #000 1px 2px 2px;
 }
 @media (min-width: 47.5em) and (max-width: 58.6875em) {
   /* line 17, ../../../theme/scss/modules/_cards.scss */
@@ -1959,35 +1960,35 @@ input[type=button], input[type="submit"] {
   }
 }
 @media (min-width: 47.5em) and (max-width: 58.6875em) {
-  /* line 40, ../../../theme/scss/modules/_cards.scss */
+  /* line 42, ../../../theme/scss/modules/_cards.scss */
   .card-list__item--large {
-    max-width: 37.5rem;
+    max-width: 600px;
     width: 48%;
   }
 }
 @media (min-width: 58.75em) {
-  /* line 40, ../../../theme/scss/modules/_cards.scss */
+  /* line 42, ../../../theme/scss/modules/_cards.scss */
   .card-list__item--large {
-    max-width: 37.5rem;
+    max-width: 600px;
     width: 48%;
   }
 }
-/* line 52, ../../../theme/scss/modules/_cards.scss */
+/* line 54, ../../../theme/scss/modules/_cards.scss */
 .card-list__item--faded {
   background-color: rgba(66, 153, 255, 0.05);
 }
-/* line 56, ../../../theme/scss/modules/_cards.scss */
+/* line 58, ../../../theme/scss/modules/_cards.scss */
 .card-list__item--sponsor {
   max-width: none;
   width: auto;
 }
-/* line 63, ../../../theme/scss/modules/_cards.scss */
+/* line 65, ../../../theme/scss/modules/_cards.scss */
 .card-list--centered {
   -ms-flex-pack: center;
       justify-content: center;
 }
 
-/* line 68, ../../../theme/scss/modules/_cards.scss */
+/* line 70, ../../../theme/scss/modules/_cards.scss */
 .card {
   display: -ms-flexbox;
   display: flex;
@@ -1999,20 +2000,20 @@ input[type=button], input[type="submit"] {
       align-items: stretch;
   -ms-flex: 1;
       flex: 1;
-  min-height: 22.5rem;
+  min-height: 360px;
 }
-/* line 76, ../../../theme/scss/modules/_cards.scss */
+/* line 78, ../../../theme/scss/modules/_cards.scss */
 .card__content {
   -ms-flex: 1;
       flex: 1;
 }
-/* line 80, ../../../theme/scss/modules/_cards.scss */
+/* line 82, ../../../theme/scss/modules/_cards.scss */
 .card__footer {
   -ms-flex-item-align: end;
       align-self: flex-end;
 }
 
-/* line 86, ../../../theme/scss/modules/_cards.scss */
+/* line 88, ../../../theme/scss/modules/_cards.scss */
 .book-cover {
   position: relative;
   display: block;
@@ -2020,7 +2021,7 @@ input[type=button], input[type="submit"] {
   height: 0;
   padding-top: 153.846153846%;
 }
-/* line 93, ../../../theme/scss/modules/_cards.scss */
+/* line 95, ../../../theme/scss/modules/_cards.scss */
 .book-cover img {
   position: absolute;
   width: 100%;
@@ -2029,23 +2030,23 @@ input[type=button], input[type="submit"] {
 }
 
 @media (min-width: 47.5em) and (max-width: 58.6875em) {
-  /* line 101, ../../../theme/scss/modules/_cards.scss */
+  /* line 103, ../../../theme/scss/modules/_cards.scss */
   .sponsor-content {
     display: -ms-flexbox;
     display: flex;
   }
 }
 @media (min-width: 58.75em) {
-  /* line 101, ../../../theme/scss/modules/_cards.scss */
+  /* line 103, ../../../theme/scss/modules/_cards.scss */
   .sponsor-content {
     display: -ms-flexbox;
     display: flex;
   }
 }
-/* line 111, ../../../theme/scss/modules/_cards.scss */
+/* line 113, ../../../theme/scss/modules/_cards.scss */
 .sponsor-content__image {
-  -ms-flex: 1 25rem;
-      flex: 1 25rem;
+  -ms-flex: 1 400px;
+      flex: 1 400px;
 }
 
 /* line 5, ../../../theme/scss/modules/_main-nav.scss */
@@ -2073,33 +2074,33 @@ input[type=button], input[type="submit"] {
   }
 }
 @media (min-width: 47.5em) and (max-width: 58.6875em) {
-  /* line 24, ../../../theme/scss/modules/_main-nav.scss */
+  /* line 25, ../../../theme/scss/modules/_main-nav.scss */
   .main-nav__item {
     display: inline-block;
   }
 }
 @media (min-width: 58.75em) {
-  /* line 24, ../../../theme/scss/modules/_main-nav.scss */
+  /* line 25, ../../../theme/scss/modules/_main-nav.scss */
   .main-nav__item {
     display: inline-block;
   }
 }
 @media (max-width: 47.4375em) {
-  /* line 34, ../../../theme/scss/modules/_main-nav.scss */
+  /* line 35, ../../../theme/scss/modules/_main-nav.scss */
   .main-nav__item a {
     display: inline-block;
   }
 }
 @media (min-width: 58.75em) {
-  /* line 48, ../../../theme/scss/modules/_main-nav.scss */
+  /* line 49, ../../../theme/scss/modules/_main-nav.scss */
   .main-nav__item a, .main-nav__item a:hover, .main-nav__item a:active, .main-nav__item a:visited {
-    color: #fff;
+    color: #000;
   }
 }
 @media (min-width: 47.5em) and (max-width: 58.6875em) {
-  /* line 57, ../../../theme/scss/modules/_main-nav.scss */
+  /* line 58, ../../../theme/scss/modules/_main-nav.scss */
   .main-nav__item a, .main-nav__item a:hover, .main-nav__item a:active, .main-nav__item a:visited {
-    color: #fff;
+    color: #000;
   }
 }
 
@@ -2149,7 +2150,7 @@ input[type=button], input[type="submit"] {
 }
 /* line 17, ../../../theme/scss/modules/_article-list.scss */
 .article-list__item {
-  border-bottom: solid 0.125rem rgba(66, 153, 255, 0.05);
+  border-bottom: solid 2px rgba(66, 153, 255, 0.05);
 }
 
 /* line 8, ../../../theme/scss/modules/_categories-list.scss */
@@ -2163,8 +2164,8 @@ input[type=button], input[type="submit"] {
   opacity: 0;
   transition: -webkit-transform 0.15s cubic-bezier(0.4, 0, 0.2, 1), opacity 0s linear 0.15s;
   transition: transform 0.15s cubic-bezier(0.4, 0, 0.2, 1), opacity 0s linear 0.15s;
-  -webkit-transform: translateY(56.25rem);
-          transform: translateY(56.25rem);
+  -webkit-transform: translateY(900px);
+          transform: translateY(900px);
   background-color: #4299ff;
   color: #fff;
   pointer-events: none;
@@ -2208,6 +2209,6 @@ input[type=button], input[type="submit"] {
   /* line 55, ../../../theme/scss/modules/_categories-list.scss */
   .browse-categories {
     position: absolute;
-    left: 1.375rem;
+    left: 22px;
   }
 }
